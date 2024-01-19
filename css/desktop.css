@@ -1,0 +1,138 @@
+body {
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  justify-content: space-around;
+}
+
+.header__nav {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+
+  position: initial;
+}
+
+.header__nav .link {
+  height: 100%;
+}
+
+.header__hamburger--visibility {
+  display: none;
+}
+
+.request-button--visibility {
+  display: block;
+}
+
+.brand {
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.brand__content {
+  width: 50%;
+  padding: 0px 140px;
+  align-items: start;
+}
+
+.brand__title {
+  font-size: 4rem;
+  text-align: start;
+}
+
+.brand__message {
+  text-align: start;
+}
+
+.brand__images {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.brand__background {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: -260px;
+  left: -100px;
+}
+
+.brand__mockups {
+  width: 100%;
+  height: auto;
+  top: -115px;
+  left: 110px;
+}
+
+.features {
+  align-items: start;
+  padding: 80px 140px;
+}
+
+.features__title {
+  padding: 0;
+}
+
+.features__content {
+  width: 620px;
+  text-align: start;
+}
+
+.features > div {
+  width: 100%;
+}
+
+.feature-card {
+  align-items: start;
+}
+
+.feature-card__content {
+  text-align: start;
+}
+
+.articles {
+  align-items: start;
+  padding: 80px 140px;
+}
+
+.articles > div {
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.footer {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 140px;
+}
+
+.footer > div:first-child {
+  align-items: start;
+  justify-content: space-between;
+  margin: 0;
+  gap: 40px;
+}
+
+.footer > div:nth-child(2) {
+  width: 292px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.footer > div:nth-child(3) {
+  align-items: end;
+}
+
+.footer__links {
+  align-items: start;
+}
